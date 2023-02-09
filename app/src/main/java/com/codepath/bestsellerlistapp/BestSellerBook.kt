@@ -22,10 +22,13 @@ class BestSellerBook {
 
     //TODO bookImageUrl
     @SerializedName("book_image")
-    var bookImageURl: String? = null
+    var bookImageUrl: String? = null
     //TODO description
     @SerializedName("description")
     var description: String? = null
 
     //TODO-STRETCH-GOALS amazonUrl
+    @SerializedName("amazon_product_url")
+    var amazonUrl: String? = null
+
 }
